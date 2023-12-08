@@ -1,4 +1,4 @@
 ---
-const { title, url } = Astro.props;
+const { title, url } = Astro.this.props
 ---
 <li><a href={url}>{title}</a></li>
